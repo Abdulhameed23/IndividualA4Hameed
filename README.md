@@ -1,4 +1,4 @@
-# A2-Group2
+# A2-Group26
 
 # Our very own chatbot - Harvie The MovieBot
 
