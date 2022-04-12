@@ -59,7 +59,13 @@ Once done all the user has to type is `exit` for chatbot to terminate.
 
 ![image](https://user-images.githubusercontent.com/45835101/159102958-bdc379f5-b278-4882-baa5-808fb2f690fc.png)
 
-## A3 Features
+## Individual Project Features
+Twitter review retrievals based on trends, or user's interest
+
+Twitter account timeline retrievals based on a celebrity that the user is interested in
+
+Wikipedia search and provision of information for the user to learn more about a movie's plot or synopsis. The user can also learn more about other topics outside of movies. It provides them the functionality to get any kind of information needed.
+
 Handling lack of question mark for questions
 
 Provides more topics like sports and movies
