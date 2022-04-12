@@ -66,12 +66,13 @@ Twitter review retrievals based on trends, or user's interest
 
 Twitter account timeline retrievals based on a celebrity that the user is interested in
 
-![image](https://github.com/Abdulhameed23/IndividualA4Hameed/blob/main/screenshots/TwitterFeature.jpg?raw=true)
+<img src ="screenshots/TwitterFeature.jpg" width="300px">
 
 Wikipedia search and provision of information for the user to learn more about a movie's plot or synopsis. The user can also learn more about other topics outside of movies. It provides them the functionality to get any kind of information needed.
 
-![image](https://github.com/Abdulhameed23/IndividualA4Hameed/blob/main/screenshots/WikiPediaF1.jpg?raw=true)
-![image](https://github.com/Abdulhameed23/IndividualA4Hameed/blob/main/screenshots/WikiPediaF2.jpg?raw=true)
+<img src ="screenshots/WikiPediaF1.jpg" width="300px">
+
+<img src ="screenshots/WikiPediaF2.jpg" width="300px">
 
 Handling lack of question mark for questions
 
