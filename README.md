@@ -33,6 +33,12 @@ An api we used to find out if the user is typing in past tense or present tense
 ### NLTK
 An api we used to detect synonyms of the words, the bot should be able to understand a word if its a synonym of a word it currently knows
 
+## Twitter API
+A Twitter API was introduced, to give users the ability to scour the internet and get recent tweets about a movie, film or sporting event. The user using the "review" keyword would prompt Harvie to provide the most recent tweets about a trending event, movie, sport, or other interesting topics. If the user provides the "account" keyword and specific username, Harvie can provide their latest tweets on their timeline, including tweet replies.
+
+## Wikipedia API
+A Wikipedia API was introduced, to give a user the option to get as much information as they want on an event, movie, or topic. Similar to using google, the user conducts a search, and the API shows what wikipedia pages are available. The user can then confirm their choice by typing in the specific page title which will be displayed to them. 
+
 ## Chatbot in action
 
 The chatbot is able to take user input and give back answers. However each word does not have to be the exact same as the key in the dictionary to give back the right response.
