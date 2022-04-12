@@ -1,4 +1,4 @@
-# A2-Group26
+# A4 - Hameed Karim
 
 # Our very own chatbot - Harvie The MovieBot
 
