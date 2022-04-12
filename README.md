@@ -62,7 +62,7 @@ Once done all the user has to type is `exit` for chatbot to terminate.
 ## Individual Project Features
 Twitter review retrievals based on trends, or user's interest
 
-<img src ="screenshots/ReviewTweets" width="300px">
+<img src ="screenshots/ReviewTweets.jpg" width="300px">
 
 Twitter account timeline retrievals based on a celebrity that the user is interested in
 
