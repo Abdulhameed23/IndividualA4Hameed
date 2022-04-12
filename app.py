@@ -14,7 +14,7 @@ previousq = ""
 class ChatApplication:
 
     def __init__(self):
-        self.window = Tk();
+        self.window = Tk()
         self._setup_main_window()
 
 
@@ -38,13 +38,13 @@ class ChatApplication:
         line.place(relwidth =1, rely= 0.07, relheight= 0.012)
 
         # text widget
-        self.text_widget = Text(self.window, width = 20, height = 2, bg = BG_COLOR, font = font, padx=5, fg = text_color, pady=5)
+        self.text_widget = Text(self.window, width = 20, wrap='word', height = 2, bg = BG_COLOR, font = font, padx=5, fg = text_color, pady=5)
         self.text_widget.place(relheight= 0.745, relwidth=1, rely= 0.08)
         self.text_widget.configure(cursor="arrow", state = DISABLED)
 
         # scroll bar
         scrollbar = Scrollbar(self.text_widget)
-        scrollbar.place(relheight = 1,relx = 0.974)
+        scrollbar.place(relheight = 1,relx = 1)
         scrollbar.configure(command=self.text_widget.yview)
 
 

@@ -5,13 +5,15 @@ from app import *
 from NerStanza import *
 from POStrack import *
 from Sports import sportquestions
+from Twitterapi import *
+from WikipediaApi import *
 
 name = "Harvie"
 resp = ""
-
+section = ""
 
 def getResponse(question, pq):
-
+    global section
     possible_questions = {
         "Hello": "Hi, My name is Harvie, a MovieBot. I love films. I love to talk about movies, tv shows and celebrities.",
         "Who are you?":"My name is Harvie, a MovieBot. I love films. I love to talk about movies, tv shows and celebrities.",
@@ -81,8 +83,26 @@ def getResponse(question, pq):
             else:
                 randIndex = random.randint(0, len(resp) - 1)
                 resp = resp[randIndex]
+        elif "twitter review" in question or "twitter review" in pq:
+            if "review" in pq:
+                resp = twitter(question)
+            else: 
+                resp = "What do you want to review? I can show you the most recent twitter opinions on any movie/TV shows"
+        elif "twitter account" in question or "twitter account" in pq:
+            if "twitter account" in pq:
+                resp = account(question)
+            else: 
+                resp = "Whose twitter account would you like to view? I can show their last 10 tweets on their timeline"
+        elif "information" in question or "information" in pq or "information" in section:
+            if "information" in question:
+                resp = "I can provide wikipedia results for anything you would like to know. Please type it in. Based on my search, you can select the option that matches closes to your query by typing it in."
+            elif "information" in pq:
+                resp = wikisearch(question)
+                section = "information"
+            elif "information" in section:
+                resp = matchsearch(question)
+                section = ""
         else:
-
             resp = processinput(question)   #Check if there is any work of art or anything you can identify!
             if resp == "":
                 resp = processpos(question)
